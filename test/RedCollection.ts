@@ -44,7 +44,7 @@ describe("RedCollection", function () {
         it("Should only be available to the contract owner", async function () {
             const {redCollection} = await loadFixture(deployRedCollection);
 
-            expect(await redCollection.foundryCollectibles("ipfsURI"));
+            //expect(await redCollection.foundryCollectibles("ipfsURI"));
         });
     });
 
